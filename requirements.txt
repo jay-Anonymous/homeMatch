@@ -6,3 +6,6 @@ sentence-transformers>=2.2.0
 transformers>=4.31.0
 chromadb==0.4.18
 jupyter==1.0.0
+sentencepiece>=0.2.1 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
